@@ -1,14 +1,173 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&family=Source+Serif+Pro&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="./style.css">
-    <title>RMC</title>
+    <title>RMC - Quvonchbek</title>
 </head>
+
 <body>
-    <h1>Hello World</h1>
-    <script src="./script.js"></script>
+
+    <header class="position--">
+        <nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-2">
+                        <div class="logo">
+                            <h1 class="logo-heading">RMC</h1>
+                        </div>
+                    </div>
+                    <div class="col-4 d-flex align-items-center">
+                        <ul class="list">
+                            <a href="#!" class="list-item d-none d-sm-block">THE STUDIO</a>
+                            <a href="#!" class="list-item ml-- d-none d-sm-block">pROJECTS</a>
+                            <a href="#!" class="list-item ml-- d-none d-sm-block">architecture</a>
+                            <a href="#!" class="list-item ml-- d-none d-sm-block">Blog</a>
+                        </ul>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end">
+                        <button class="btn my-btn d-none d-sm-block">Contact</button>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <h1 class="small-text">Architecture design</h1>
+                    <h1 class="big-text">Professional <br> Interior Design</h1>
+                    <h1 class="average-text d-none d-sm-block">Design for now with the awareness of yesterday and <br>
+                        unknown tomorrow. Because small details make the perfect <br> design. Helping you choose between
+                        good and best.</h1>
+                    <h1 class="average-text d-block d-sm-none">Tempor incididunt ut labore et dolore <br> magna aliqua.
+                        Ut enim ad minim veniam <br> quis nostruercitation ullamco laboris</h1>
+                    <button class="btn together-btn">Let’s work together</button>
+                </div>
+                <div class="col-6 image d-none d-sm-block">
+                    <img width="100%" src="./img/Rectangle 717.png" alt="">
+                </div>
+                <div class="col-12 col-sm-6 d-block d-sm-none">
+                    <img width="100%" src="./img/Rectangle 717.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-6">
+                    <p class="services">TOP SERVICES</p>
+                    <h1 class="specializations">Our Specializations</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3 d-none d-sm-block">
+                    <div class="bg-1">
+                        <div class="card--">
+                            <p class="plan">Floor plan</p>
+                            <p class="tempor">Tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 d-none d-sm-block">
+                    <div class="bg-2">
+                        <div class="card--">
+                            <p class="plan">Interior Design</p>
+                            <p class="tempor">Tempor incididunt ut labore et dolore magna aliqua. Ut enim ad.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 d-none d-sm-block">
+                    <div class="bg-3">
+                        <div class="card--">
+                            <p class="plan">Architecture Design</p>
+                            <p class="tempor">Tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3 d-none d-sm-block">
+                    <div class="bg-4">
+                        <div class="card--">
+                            <p class="plan">Construction</p>
+                            <p class="tempor">Tempor incididunt ut labore et dolore magna aliqua.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row d-block d-sm-none">
+                <div class="col-12">
+                    <div id="carouselExampleFade" class="carousel slide carousel-fade">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="bg-1">
+                                    <div class="card--">
+                                        <p class="plan">Floor plan</p>
+                                        <p class="tempor">Tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="bg-2">
+                                    <div class="card--">
+                                        <p class="plan">Interior Design</p>
+                                        <p class="tempor">Tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                                            ad.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="bg-3">
+                                    <div class="card--">
+                                        <p class="plan">Architecture Design</p>
+                                        <p class="tempor">Tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="bg-4">
+                                    <div class="card--">
+                                        <p class="plan">Construction</p>
+                                        <p class="tempor">Tempor incididunt ut labore et dolore magna aliqua.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-6"></div>
+                <div class="col-6"></div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
